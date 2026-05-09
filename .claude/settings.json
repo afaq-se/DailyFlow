@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | grep -E '\\.py$' && python -m black {file_path} --quiet || true",
+            "async": false
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[DailyFlow] claude finished -- review output above' >&2",
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "a1b2c3d4-0001-4000-8000-000000000001",
+    "title": "Review pull requests",
+    "subtasks": [
+      "Check open PRs on GitHub",
+      "Read through code changes and leave comments",
+      "Approve or request changes",
+      "Follow up on any unresolved threads"
+    ],
+    "completed": true,
+    "completed_at": "2026-05-08T16:38:43.229743",
+    "created_at": "2026-05-08T08:00:00.000000"
+  },
+  {
+    "id": "a1b2c3d4-0002-4000-8000-000000000002",
+    "title": "Write unit tests for auth module",
+    "subtasks": [
+      "Set up test file and imports",
+      "Write tests for login success and failure cases",
+      "Write tests for token expiry handling",
+      "Run tests and fix any failures"
+    ],
+    "completed": true,
+    "completed_at": "2026-05-08T10:30:00.000000",
+    "created_at": "2026-05-08T08:15:00.000000"
+  },
+  {
+    "id": "a1b2c3d4-0003-4000-8000-000000000003",
+    "title": "Update project README",
+    "subtasks": [
+      "Update setup and installation instructions",
+      "Add API endpoint documentation",
+      "Include environment variable reference",
+      "Add a usage example"
+    ],
+    "completed": true,
+    "completed_at": "2026-05-08T16:38:46.035007",
+    "created_at": "2026-05-08T09:00:00.000000"
+  },
+  {
+    "id": "59d3bfb5-18aa-4cba-9ec9-80f1a719b43a",
+    "title": "learn claude code",
+    "subtasks": [
+      "find official documentation for Claude code",
+      "complete beginner tutorials on Claude code",
+      "practice coding examples in Claude",
+      "join online forums or communities for Claude code",
+      "build a small project using Claude code"
+    ],
+    "completed": true,
+    "completed_at": "2026-05-08T16:58:47.356244",
+    "created_at": "2026-05-08T16:45:09.145432"
+  },
+  {
+    "id": "5c17ffa0-3d47-4e72-810a-42387a8d6a3d",
+    "title": "work on claude design",
+    "subtasks": [
+      "research design principles for Claude",
+      "create initial design sketches",
+      "gather feedback from team members",
+      "refine design based on feedback",
+      "prepare final design presentation"
+    ],
+    "completed": false,
+    "completed_at": null,
+    "created_at": "2026-05-09T05:44:13.595325"
+  },
+  {
+    "id": "8c1c84d6-4210-4901-8eb0-62fb869bb492",
+    "title": "Prepare for and complete a HackerRank assignment test",
+    "subtasks": [
+      "Review HackerRank coding challenges and formats",
+      "Practice relevant data structures and algorithms",
+      "Set up a quiet, distraction-free environment for the test",
+      "Test your coding environment and tools beforehand",
+      "Take the HackerRank assignment test"
+    ],
+    "completed": false,
+    "completed_at": null,
+    "created_at": "2026-05-09T05:46:56.481179"
+  }
+]
